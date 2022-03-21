@@ -5,6 +5,10 @@ def handshake(n):
         # print(n-i-1)
     return(handshaketotal)
 
+def handshakebetter(n):
+    n = n-1
+    print(int((n*(n+1))
+          /2))
 
-handshake(2)
+handshakebetter(3)
 
